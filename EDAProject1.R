@@ -51,3 +51,11 @@ econs3<-cbind(econs3,y)
 colnames(econs3)[10]<-"datetime"
 
 plot(econs3$datetime,econs3$Global_active_power )
+
+
+
+plot(econs3$datetime,econs3$Global_active_power,ylim=range(0:8),pch=" ",xlab="" , ylab="Global Active Power (kilowatts)" )
+
+lines(econs3$datetime,econs3$Global_active_power)
+
+
