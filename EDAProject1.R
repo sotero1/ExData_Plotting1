@@ -146,8 +146,8 @@ plot(econs3$datetime,econs3$Global_reactive_power,type="l",xlab="datetime",ylab=
 
 
 #######################################################################
-
-par(mfrow = c(2,2)  )
+#middle,left and middle vertical
+par(mfrow = c(2,2),mar = c(3,4,2,2)  )
 
 plot(econs3$datetime,econs3$Global_active_power,type="l",xlab="" , ylab="Global Active Power " )
 
